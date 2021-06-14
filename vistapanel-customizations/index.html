@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="assets/css/vue.css">
   <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
 </head>
 
 <body>
@@ -16,9 +17,10 @@
   <script src="assets/js/script.js"></script>
   <script src="assets/js/edit-on-github.js"></script>
   <script src="assets/js/twemoji.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
   <script>
     window.$docsify = {
-      name: 'documentation',
+      name: 'Wybe Network',
       repo: 'https://github.com/WybeNetwork/documentation',
       plugins: [
         EditOnGithubPlugin.create('https://github.com/WybeNetwork/documentation/tree/main/vistapanel-customizations/',
@@ -35,7 +37,7 @@
       maxLevel: 2,
       logo: '/assets/img/logo.png',
       themeColor: '#3F51B5',
-      notFoundPage: true,
+      notFoundPage: '_404.md',
       externalLinkTarget: '_blank',
       externalLinkRel: 'noopener'
     }
