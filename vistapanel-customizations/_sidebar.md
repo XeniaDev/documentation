@@ -1,8 +1,8 @@
 - Getting started
 
-  - [Requirement](requirement.md)
+  - [Requirements](requirements.md)
   - [License](license.md)
-  - [Scripts Name](scripts-name.md)
+  - [Scripts](scripts.md)
 
 - Installation
 
