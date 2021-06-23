@@ -6,8 +6,8 @@
 
 - Installation
 
-  - [Method 1](method1.md)
-  - [Method 2](method2.md)
+  - [Manual Installation](manual.md)
+  - [Using our CDN](cdn.md)
 
 - Code
 
